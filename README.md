@@ -12,7 +12,7 @@ This is not an actual course since I'm learning as I document my progress and tr
 
 > You can fork or clone the repo using ssh or http
 
-**
+***
 
 I have created a directory Steps/ where I will document each step as I continue with the course
 
