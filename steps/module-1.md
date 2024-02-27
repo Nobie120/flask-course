@@ -3,9 +3,13 @@
 
 - Created a Directory In my Desktop called Projects
 - Inside projects I created another directory(Flask_projects)
-- Inside Flask_projects I created a virtual environment and named it flask-1
+- Inside Flask_projects I created a virtual environment and named it flask-1 
 ```
 python -m venv flask-1
+```
+- Activated It by
+```
+source flask-1/Scripts/activate
 ```
 
 ## Fisrt Application
