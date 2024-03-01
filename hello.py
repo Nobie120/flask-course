@@ -18,4 +18,4 @@ def index():
 @app.route('/user/<name>')
 
 def user(name):
-    return f"<h4>Hello {escape(name)}!!<h4>"
+    return render_template("user.html", user_name=name)
