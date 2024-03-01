@@ -12,4 +12,4 @@
 ## Playing WIth Jinja
 
 I aded another route to my hello.py '/user/<name>'
-Using Jinja I could Get the name passes on the web browser and use in my function or templates I also learnt some filters amd how to use filters in jinja (Jinja filters)[https://www.youtube.com/watch?v=4yaG-jFfePc&list=PLCC34OHNcOtolz2Vd9ZSeSXWc8Bq23yEz&index=2]
+Using Jinja I could Get the name passes on the web browser and use in my function or templates I also learnt some filters amd how to use filters in jinja [Jinja filters](https://www.youtube.com/watch?v=4yaG-jFfePc&list=PLCC34OHNcOtolz2Vd9ZSeSXWc8Bq23yEz&index=2)
