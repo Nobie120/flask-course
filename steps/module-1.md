@@ -23,3 +23,8 @@ Project\
 	Flask_projest\
 		>hello.py
 ```
+## Important setups
+``` 
+source FLASK_APP=hello.py 
+```
+``` source FLASK_DEBUG=1 ```
