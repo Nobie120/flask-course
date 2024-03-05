@@ -18,4 +18,17 @@ def index():
 @app.route('/user/<name>')
 
 def user(name):
-    return render_template("user.html", user_name=name)
+    stuff = "This is a <strong>Bold</strong> Text"
+    favourite_pizza = ["Pepperoni", "Cheese", "Mushroom", 41]
+    return render_template("user.html", 
+                           user_name=name,
+                           stuff=stuff,
+                           favourite_pizza=favourite_pizza)
+
+# Handling errors
+
+#Invalid url
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
