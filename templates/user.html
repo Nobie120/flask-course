@@ -1,1 +1,15 @@
-<h1>Hello {{ user_name }}</h1>
+<h1>Hello {{ user_name|lower }}</h1>
+<p>{{stuff|safe}}</p>
+
+<h3>Favourite Pizza</h3>
+{% for pizza in favourite_pizza %}
+    {% if pizza == "Pepperoni" %}
+        <p>It Works</p>
+        {{pizza}}<br>
+    {%else%}
+    {{pizza}}<br>
+    {% endif %}
+{% endfor %}
+
+<br><br>
+{{favourite_pizza.3 + 10}}
